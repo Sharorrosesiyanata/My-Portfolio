@@ -22,7 +22,6 @@ if (guess === 7) {
 }
 */
 while (parseInt(guess) !== 7) {
-    var Guess = alert("Hey Sharon, Guess a secret number between 1 && 20.");
     var guess = prompt("Enter the secret number");
     if (guess === null) {
         alert("You canceled but you can do this. Lets try again ")
